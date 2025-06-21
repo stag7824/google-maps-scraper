@@ -1,4 +1,4 @@
-FROM golang:1.23.6-bullseye
+FROM golang:1.24.4-bullseye
 
 # Install curl first, then install Node.js 18, Git, and ca-certificates.
 RUN apt-get update && \
